@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import {CalculatorUI} from "./Components/calculator";
+import {CalculatorUI} from "./Component/calculator";
 
 function App() {
   return (

@@ -15,9 +15,10 @@
     width:95%;
     border-radius: 3px;
     border: solid #666 1px;
-    padding: 0;
+    padding: 5px;
     height: 40px;
     margin: 5px;
+
 }
 .row {
     display: flex;
@@ -35,11 +36,11 @@
     border: none;
 }
 
-.lightbdg {
+.lightbg {
     background: #fff;
 }
 
-.darkbdg {
+.darkbg {
     background: #000;
 }
 
@@ -68,13 +69,12 @@
     border-radius: 5px;
 }
 
-.lightbdg button {
+.lightbg section button {
     background-color: #f0f0f0;
     color: #000
 }
-.darkBtn button {
+.darkbg section button,.darkbg input {
     background-color: #666;
     color: #fff
 }
-
 

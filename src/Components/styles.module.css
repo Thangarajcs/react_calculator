@@ -1,0 +1,80 @@
+.parent {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcContainer {
+    border: 2px solid #000;
+    width: auto;
+}
+
+.outputScreen {
+    text-align: right;
+    width:95%;
+    border-radius: 3px;
+    border: solid #666 1px;
+    padding: 0;
+    height: 40px;
+    margin: 5px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.row button{
+    padding: 2px;
+    width: 100px;
+    height: auto;
+    min-height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lightbdg {
+    background: #fff;
+}
+
+.darkbdg {
+    background: #000;
+}
+
+.themeButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.themeButtonContainer button {
+    width: 100px;
+    height: auto;
+    min-height: 30px;
+    margin: 5px;
+}
+.lightBtn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+}
+.darkBtn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.lightbdg button {
+    background-color: #f0f0f0;
+    color: #000
+}
+.darkBtn button {
+    background-color: #666;
+    color: #fff
+}
+
+
